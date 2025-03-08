@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Run checks before commit
+exec npm run check
