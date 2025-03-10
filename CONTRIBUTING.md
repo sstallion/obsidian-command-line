@@ -1,0 +1,5 @@
+
+
+```
+$ npx simple-git-hooks
+```
