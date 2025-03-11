@@ -1,0 +1,9 @@
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "compilerOptions": {
+    "allowUmdGlobalAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "lib": ["dom", "dom.iterable", "es2023"]
+  },
+  "include": ["src/**/*", "tests/**/*"]
+}

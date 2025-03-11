@@ -1,0 +1,37 @@
+{
+  "name": "obsidian-command-line",
+  "version": "0.0.0",
+  "license": "BSD-2-Clause",
+  "scripts": {
+    "install-hooks": "simple-git-hooks",
+    "build": "node esbuild.config.mjs build",
+    "release": "node esbuild.config.mjs release",
+    "watch": "node esbuild.config.mjs watch",
+    "test": "vitest",
+    "lint": "eslint",
+    "format": "prettier --write .",
+    "check": "tsc --noEmit && eslint --max-warnings 0 && prettier --check .",
+    "version": "node version.config.mjs"
+  },
+  "devDependencies": {
+    "@hyrious/esbuild-plugin-http": "^0.1.0",
+    "@tsconfig/node20": "^20.0.0",
+    "@types/prismjs": "^1.0.0",
+    "editorconfig": "^2.0.0",
+    "esbuild": "^0.25.0",
+    "eslint": "^9.0.0",
+    "eslint-config-flat-gitignore": "^2.0.0",
+    "jsdom": "^26.0.0",
+    "obsidian": "latest",
+    "prettier": "latest",
+    "prettier-plugin-organize-imports": "latest",
+    "simple-git-hooks": "latest",
+    "tslib": "latest",
+    "typescript": "^5.0.0",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^3.0.0"
+  },
+  "engines": {
+    "node": "20 >=20.11.0 || 21 >=21.2.0 || >=22.0.0"
+  }
+}

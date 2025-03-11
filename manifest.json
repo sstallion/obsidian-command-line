@@ -1,0 +1,10 @@
+{
+  "id": "command-line",
+  "name": "Command Line",
+  "version": "0.0.0",
+  "minAppVersion": "1.8.0",
+  "description": "Copy command lines from your notes to the clipboard.",
+  "author": "Steven Stallion",
+  "authorUrl": "https://github.com/sstallion",
+  "isDesktopOnly": false
+}
