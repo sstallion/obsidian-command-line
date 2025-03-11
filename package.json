@@ -1,6 +1,6 @@
 {
   "name": "obsidian-command-line",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "BSD-2-Clause",
   "scripts": {
     "install-hooks": "simple-git-hooks",
