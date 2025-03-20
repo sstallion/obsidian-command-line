@@ -23,9 +23,9 @@ Command line code blocks are identified using one of the following languages:
 
 | Name                 | Highlight    | Prompt Pattern | Default Prompt | Continuation |
 | -------------------- | ------------ | -------------- | -------------- | ------------ |
+| `batch-command`      | `batch`      | `/\S*?>/`      | `C:\>`         | `^`          |
 | `powershell-command` | `powershell` | `/\S*?>/`      | `PS>`          | `` ` ``      |
 | `shell-command`      | `shell`      | `/\S*?[#$%]/`  | `$`            | `\`          |
-| `windows-command`    | `batch`      | `/\S*?>/`      | `C:\>`         | `^`          |
 
 For example, copying the following code block to the clipboard will remove the
 prompt and output while preserving line continuations and white space:

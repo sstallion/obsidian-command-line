@@ -34,6 +34,12 @@ const DEFAULT_SETTINGS: Partial<CommandLineSettings> = {
     highlight: false,
     normalize: false,
     languages: {
+        "batch-command": {
+            defaultPrompt: "C:\\>",
+            promptPattern: "^\\S*?>\\s*",
+            continuationPattern: "\\^$",
+            alias: "batch",
+        },
         "powershell-command": {
             defaultPrompt: "PS>",
             promptPattern: "^\\S*?>\\s*",
@@ -45,12 +51,6 @@ const DEFAULT_SETTINGS: Partial<CommandLineSettings> = {
             promptPattern: "^\\S*?[#$%]\\s*",
             continuationPattern: "\\\\$",
             alias: "shell",
-        },
-        "windows-command": {
-            defaultPrompt: "C:\\>",
-            promptPattern: "^\\S*?>\\s*",
-            continuationPattern: "\\^$",
-            alias: "batch",
         },
     },
 };
