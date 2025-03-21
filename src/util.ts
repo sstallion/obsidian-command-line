@@ -44,10 +44,6 @@ export function mapTail<T>(array: T[], callbackFn: (thisArg: T) => T): T[] {
     }, [] as T[]);
 }
 
-export function sleep(delay: number): Promise<void> {
-    return new Promise((resolve) => setTimeout(resolve, delay));
-}
-
 export function waitForGlobal(name: string, delay = 100): Promise<void> {
     return new Promise((resolve) => {
         (function resolver() {

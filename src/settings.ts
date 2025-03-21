@@ -26,7 +26,6 @@
 import { PluginSettingTab, Setting } from "obsidian";
 import { CommandLineContext } from "./command";
 import CommandLinePlugin from "./main";
-import * as util from "./util";
 
 const RELOAD_DELAY = 500;
 
@@ -62,7 +61,7 @@ export class CommandLineSettingsTab extends PluginSettingTab {
                     .onChange(async (value) => {
                         this.plugin.settings.highlight = value;
                         await this.plugin.saveSettings();
-                        await util.sleep(RELOAD_DELAY).then(() => {
+                        await sleep(RELOAD_DELAY).then(() => {
                             location.reload();
                         });
                     });
