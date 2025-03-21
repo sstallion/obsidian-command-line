@@ -1,6 +1,6 @@
 *.*
+!*.css
 !*.json
 !*.mjs
-!*.scss
 !*.ts
 package-lock.json
