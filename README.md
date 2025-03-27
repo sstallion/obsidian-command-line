@@ -1,4 +1,4 @@
-# Obsidian Command Line
+# Command Line
 
 [![](https://github.com/sstallion/obsidian-command-line/actions/workflows/ci.yml/badge.svg?branch=master)][1]
 [![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsstallion%2Fobsidian-command-line%2Frefs%2Fheads%2Fmaster%2Fmanifest.json&query=minAppVersion&label=Obsidian&labelColor=%237c3aed&color=%23121212)][2]
