@@ -1,7 +1,7 @@
 {
   "id": "command-line",
   "name": "Command Line",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "minAppVersion": "1.8.0",
   "description": "Copy command lines from your notes to the clipboard.",
   "author": "Steven Stallion",
