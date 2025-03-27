@@ -1,11 +1,11 @@
 # Command Line
 
 [![](https://github.com/sstallion/obsidian-command-line/actions/workflows/ci.yml/badge.svg?branch=master)][1]
-[![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsstallion%2Fobsidian-command-line%2Frefs%2Fheads%2Fmaster%2Fmanifest.json&query=minAppVersion&label=Obsidian&labelColor=%237c3aed&color=%23121212)][2]
-[![](https://img.shields.io/github/v/release/sstallion/obsidian-command-line)][3]
-[![](https://img.shields.io/github/license/sstallion/ClipSock.svg)][4]
+[![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsstallion%2Fobsidian-command-line%2Frefs%2Fheads%2Fmaster%2Fmanifest.json&query=minAppVersion&suffix=%2B&label=Obsidian&color=7c3aed)][2]
+[![](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsstallion%2Fobsidian-command-line%2Frefs%2Fheads%2Fmaster%2Fmanifest.json&query=version&label=latest)][3]
+[![](https://img.shields.io/github/license/sstallion/obsidian-command-line.svg)][4]
 
-This plugin adds enhanced support for command line code blocks in Obsidian.
+This plugin adds enhanced support for command line code blocks to Obsidian.
 
 ## Features
 
