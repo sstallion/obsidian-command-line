@@ -23,6 +23,7 @@ Command line code blocks are identified using one of the following languages:
 
 | Name                 | Highlight    | Prompt Pattern | Default Prompt | Continuation |
 | -------------------- | ------------ | -------------- | -------------- | ------------ |
+| `command-line`       | N/A          | Any below      | `C:\>`         | Any below    |
 | `batch-command`      | `batch`      | `/\S*?>/`      | `C:\>`         | `^`          |
 | `powershell-command` | `powershell` | `/\S*?>/`      | `PS>`          | `` ` ``      |
 | `shell-command`      | `shell`      | `/\S*?[#$%]/`  | `$`            | `\`          |

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Added `command-line` as an alternative to highlighted languages
+
 ## [1.1.1] - 2025-03-20
 
 ### Fixed
