@@ -34,6 +34,11 @@ const DEFAULT_SETTINGS: Partial<CommandLineSettings> = {
     highlight: false,
     normalize: false,
     languages: {
+        "command-line": {
+            defaultPrompt: "C:\\>",
+            promptPattern: "^\\S*?[#$%>]\\s*",
+            continuationPattern: "[\\\\`^]$",
+        },
         "batch-command": {
             defaultPrompt: "C:\\>",
             promptPattern: "^\\S*?>\\s*",
